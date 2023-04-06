@@ -8,7 +8,7 @@ serve(async (request) => {
   if (url.pathname === "/") {
     return new Response("are you ok", {
       headers: {
-        "content-type": "text/plain; charset=UTF-8",
+        "content-type":"text/plain;charset=UTF-8",
       }
     });
   }
